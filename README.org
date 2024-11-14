@@ -1,0 +1,12 @@
+* Requirements
+- Deno 2
+
+* Run
+** Server
+#+begin_src shell
+deno task server:dev
+#+end_src
+** Client
+#+begin_src shell
+deno task client:dev
+#+end_src
