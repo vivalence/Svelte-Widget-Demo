@@ -1,0 +1,26 @@
+{
+  "workspace": ["./client"],
+  "tasks": {
+    "server:dev": "deno run -A --watch server/mod.js",
+    "client:dev": "deno run -A client/mod.js",
+  },
+  "imports": {
+    "$std/": "https://deno.land/std@0.224.0/",
+    "oak": "jsr:@oak/oak@16.1.0",
+
+    "esbuild": "npm:esbuild@latest",
+    "esbuild-svelte": "npm:esbuild-svelte@latest",
+    "esbuild-plugin-cache": "npm:esbuild-plugin-cache",
+
+    "vite": "npm:vite@5.4.10",
+    "svelte": "npm:svelte@5.1.9",
+    "svelte/compiler": "npm:svelte@5.1.9/compiler",
+    "svelte/motion": "npm:svelte@5.1.9/motion",
+    "@sveltejs/kit": "npm:@sveltejs/kit@2.7.4",
+    "@sveltejs/kit/vite": "npm:@sveltejs/kit@2.7.4/vite",
+    "@sveltejs/adapter-auto": "npm:@sveltejs/adapter-auto@3.3.1",
+    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@4.0.0",
+    "tailwindcss": "npm:tailwindcss@3.4.14",
+    "autoprefixer": "npm:autoprefixer@10.4.20",
+  },
+}

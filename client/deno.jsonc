@@ -1,0 +1,8 @@
+{
+  "name": "@vivalence/clients/web",
+  "version": "0.0.1",
+  "exports": "./null.js",
+  "tasks": {
+    "web:dev": "DENO_ROLE=client deno run -A --node-modules-dir npm:vite",
+  },
+}
