@@ -14,10 +14,10 @@
 
     "vite": "npm:vite@5.4.10",
     "svelte": "npm:svelte@5.1.9",
-    "svelte/compiler": "npm:svelte@5.1.9/compiler",
-    "svelte/motion": "npm:svelte@5.1.9/motion",
+    "svelte/": "npm:svelte@5.1.9/",
     "@sveltejs/kit": "npm:@sveltejs/kit@2.7.4",
-    "@sveltejs/kit/vite": "npm:@sveltejs/kit@2.7.4/vite",
+    "@sveltejs/kit/": "npm:@sveltejs/kit@2.7.4/",
+    // "@sveltejs/kit/vite": "npm:@sveltejs/kit@2.7.4/vite",
     "@sveltejs/adapter-auto": "npm:@sveltejs/adapter-auto@3.3.1",
     "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@4.0.0",
     "tailwindcss": "npm:tailwindcss@3.4.14",
